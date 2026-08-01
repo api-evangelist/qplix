@@ -1,8 +1,29 @@
 aid: qplix
 name: QPLIX
-description: 'QPLIX is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'QPLIX GmbH is a Munich-based wealth management software company offering
+  QPLIX-Q, an all-in-one SaaS platform for professional investors, family offices,
+  asset managers, and banks to consolidate, manage, and report on multi-asset-class
+  portfolios. The platform automates portfolio management, trading and rebalancing,
+  accounting, tax, and client reporting, integrating direct data feeds from 150+ custodian
+  banks (UBS, Julius Baer, Deutsche Bank, and others) and leading market-data providers
+  (LSEG, Moody''s, S&P Dow Jones Indices, ISS ESG). QPLIX runs a self-hosted, API-based
+  infrastructure on ISO 27001-certified European data centers, holds an ISAE 3402
+  attestation, and is registered with Germany''s BaFin as an account information service
+  provider (AISP). The company does not publish a public developer API or portal;
+  integrations are delivered as managed add-ons and there is no OpenAPI, SDK, or developer
+  documentation surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6682cd4f542e53c02b4ef5ee/668d153e851a7df10f75019e_Logo%20QPLIX%20Square%20White.svg
 url: https://raw.githubusercontent.com/api-evangelist/qplix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Financial Services
+- Wealth Management
+- Portfolio Management
+- Asset Management
+- Family Office
+- WealthTech
+- SaaS
+- Reporting
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.qplix.com/
+- type: Integrations
+  url: https://www.qplix.com/product/ecosystem/partnerships-integrations
+- type: Support
+  url: https://www.qplix.com/contact-us
+- type: SignUp
+  url: https://www.qplix.com/demo
+- type: PrivacyPolicy
+  url: https://www.qplix.com/data-privacy
+- type: DomainSecurity
+  url: security/qplix-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
