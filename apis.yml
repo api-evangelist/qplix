@@ -12,6 +12,17 @@ description: 'QPLIX GmbH is a Munich-based wealth management software company of
   provider (AISP). The company does not publish a public developer API or portal;
   integrations are delivered as managed add-ons and there is no OpenAPI, SDK, or developer
   documentation surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
